@@ -26,7 +26,7 @@ import com.accenture.studentDetails.table.Student;
 import io.micrometer.core.ipc.http.HttpSender.Request;
 import io.micrometer.core.ipc.http.HttpSender.Response;
 
-@CrossOrigin(origins = "http://localhost:3000/","https://studentsample.azurewebsites.net/")
+@CrossOrigin(origins = {"http://localhost:3000/","https://studentsample.azurewebsites.net/"})
 @RestController
 @RequestMapping("/api/v1/student")
 public class StudentController {
